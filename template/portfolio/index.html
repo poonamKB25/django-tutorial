@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Details</title>
+</head>
+<body>
+  <h2>this r my jobs</h2>
+    {% for job in jobs%}
+          <li>{{job.company}} | {{job.description}}</li>
+    {% endfor %}
+
+</body>
+</html>
